@@ -1,0 +1,26 @@
+﻿@model CNT2_2210900089_VuVietAnh.Models.DANH_MUC
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DANH_MUC</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenDM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenDM)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaDM }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

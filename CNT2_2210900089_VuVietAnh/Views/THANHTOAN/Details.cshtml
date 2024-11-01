@@ -1,0 +1,42 @@
+﻿@model CNT2_2210900089_VuVietAnh.Models.THANH_TOAN
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>THANH_TOAN</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PhuongThuc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhuongThuc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DON_HANG.MaDH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DON_HANG.MaDH)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaTT }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

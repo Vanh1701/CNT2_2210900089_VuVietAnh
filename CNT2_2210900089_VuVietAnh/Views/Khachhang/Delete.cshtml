@@ -1,0 +1,72 @@
+﻿@model CNT2_2210900089_VuVietAnh.Models.KHACH_HANG
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>KHACH_HANG</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ho_ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ho_ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tai_khoan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tai_khoan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mat_khau)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mat_khau)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dia_chi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dia_chi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SDT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SDT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

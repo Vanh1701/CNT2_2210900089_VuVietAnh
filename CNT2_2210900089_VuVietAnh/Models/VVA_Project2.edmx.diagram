@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9e9c756043ec4680994d8c530120405b" Name="Diagram1">
+        <EntityTypeShape EntityType="Web_ban_banhVModel.CHI_TIET_DON_HANG" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ban_banhVModel.DANH_MUC" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ban_banhVModel.DON_HANG" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ban_banhVModel.KHACH_HANG" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ban_banhVModel.QUAN_TRI" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ban_banhVModel.SAN_PHAM" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ban_banhVModel.sysdiagram" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_ban_banhVModel.THANH_TOAN" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="Web_ban_banhVModel.FK_CTHD_DH" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ban_banhVModel.FK_CTHD_DH1" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ban_banhVModel.FK_DON_HANG_DH" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_ban_banhVModel.FK_THANH_TOAN_DH" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

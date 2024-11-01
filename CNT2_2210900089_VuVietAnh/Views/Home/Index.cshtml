@@ -1,0 +1,39 @@
+﻿@{ ViewBag.Title = "Trang Chủ"; }
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/site.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div><img src="~/Content/Images/Logo.png" style="width:50px; height:50px" class="logoimg"/><span class="logo"> Verra Pastry </span>
+    <nav>
+        <ul>
+            <li><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Khuyến mãi</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+</div>
+    </header>
+
+    <div class="banner text-center">
+        <img src="~/Content/banner-image.jpg" alt="Bánh Croissant" />
+        <h1>Hương vị Pháp ngay trong tầm tay bạn!</h1>
+        <button class="btn btn-primary">Mua ngay</button>
+    </div>
+
+    <footer class="text-center">
+        <div>Địa chỉ: 127b Triệu Việt Vương,Hai Bà Trưng,Hà Nội</div>
+        <div>Instagram: Verrahanoi</div>
+        <div>Số điện thoại: 0395995896</div>
+        <div>SAVOR THE ART OF LIFE</div>
+    </footer>
+</body>
+</html>
